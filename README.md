@@ -5,6 +5,7 @@ This Python notebook performs an ETL(Extract Translate and Load) function.
 
 The very first thing to do is to set up the proper environment with the necessary tools. This involves:
   Downloading, installing, importing and starting pyspark and a postgresql server.
+  Setting environment variables for java and spark
   Setting up the postgresql server with a user name, password, host, port number and database name.
   downloading a driver so that the postgresql server can connect to our code.
 
