@@ -8,7 +8,7 @@ Setup: Before performing the ETL function, I first set up the environment with t
   - Setting up the Postgresql server with a username, password, host, port number, and database name 
   - Downloading a driver so that the Postgresql server can connect to our code
 
-**Extract**: I then extracted Amazon review data from the provided URL "http://jmcauley.ucsd.edu/data/amazon/links.html" by using a wget command and used Pyspark to load the file into a dataframe on which we can perform functions. 
+**Extract**: I then extracted Amazon review data from the provided [URL](http://jmcauley.ucsd.edu/data/amazon/links.html) by using a wget command and used Pyspark to load the file into a dataframe on which we can perform functions. 
 
 **Transform**: I then transformed the data by adjusting the dates contained in the 'reviewTime' column. I used to_date() and date_format() to change the date's format from yyyy-MM-dd to MM-dd-yyyy and saved the new values in a new column. I then deleted the old ‘reviewTime’ column and renamed the new column as ‘reviewTime.’
 
