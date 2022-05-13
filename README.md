@@ -3,10 +3,10 @@ This repository contains an assignment for a data engineering position at Tensor
 This Python notebook performs an ETL (Extract Transform and Load) function on data consisting of Amazon reviews, in order to reformat the dates contained in each review to match the specified pattern as assigned by TensorIoT.
 
 Setup: Before performing the ETL function, I first set up the environment with the necessary tools. This involves:
-  Downloading, installing, importing, and starting Pyspark and a Postgresql server
-  Setting environment variables for Java to fulfill the requirements for Spark
-  Setting up the Postgresql server with a username, password, host, port number, and database name 
-  Downloading a driver so that the Postgresql server can connect to our code
+  -Downloading, installing, importing, and starting Pyspark and a Postgresql server
+  -Setting environment variables for Java to fulfill the requirements for Spark
+  -Setting up the Postgresql server with a username, password, host, port number, and database name 
+  -Downloading a driver so that the Postgresql server can connect to our code
 
 **Extract**: I then extracted Amazon review data from the provided URL "http://jmcauley.ucsd.edu/data/amazon/links.html" by using a wget command and used Pyspark to load the file into a dataframe on which we can perform functions. 
 
