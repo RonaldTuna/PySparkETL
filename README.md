@@ -1,6 +1,4 @@
-This repository contains an assignment for a data engineering position at TensorIoT
-
-This Python notebook performs an ETL (Extract Transform and Load) function on data consisting of Amazon reviews, in order to reformat the dates contained in each review to match the specified pattern as assigned by TensorIoT.
+The Python notebook contained in this repository performs an ETL (Extract Transform and Load) function on data consisting of Amazon reviews, in order to reformat the dates contained in each review to match the specified pattern as assigned by TensorIoT.
 
 Setup: Before performing the ETL function, I first set up the environment with the necessary tools. This involves:
   - Downloading, installing, importing, and starting Pyspark and a Postgresql server
